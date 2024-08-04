@@ -1,0 +1,84 @@
+# CMake generated files
+/CMakeFiles
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/build
+
+# Binary files
+/*.exe
+/*.out
+/*.app
+/*.dSYM
+
+# Object files
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.la
+*.loT
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debug files
+*.ncb
+*.user
+*.suo
+*.orig
+
+# IDE specific files
+*.DS_Store
+*.swp
+*.swo
+*.sln
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vscode
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS specific: Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux specific files
+*~
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# Executables and other binaries
+bin/
