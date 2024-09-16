@@ -11,6 +11,9 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 message(${PROJECT_SOURCE_DIR})
 message(${PROJECT_BINARY_DIR})
 
+find_package(OpenMP REQUIRED)
+target_link_libraries(MyProject PRIVATE SomeLibrary)
+
 # 添加可执行文件
 add_executable(DGEMM src/main.cpp)
 
@@ -22,5 +25,3 @@ elseif (CMAKE_SYSTEM_NAME STREQUAL "Linux")
     target_compile_options(DGEMM PRIVATE -Wall -Wextra)
 endif()
 
-# find_package(SomeLibrary REQUIRED)
-# target_link_libraries(MyProject PRIVATE SomeLibrary)
